@@ -18,4 +18,7 @@ class BitManipulation {
         // flip the k-th bit
            return (n^(1<<k));
     }
+    public static boolean powerofN(long n){
+        return ( n>0 &&((n&(n-1)) == 0));
+    }
 }
